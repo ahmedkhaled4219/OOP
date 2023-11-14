@@ -1,0 +1,120 @@
+#include <iostream>
+
+using namespace std;
+
+class Point{
+
+int x;
+int y;
+
+public :
+    Point(){
+    x=0;
+    y=0;
+    }
+    Point(int _x,int _y){
+        x=_x;
+        y=_y;
+    }
+    void Set_x(int _x){
+    x=_x;
+    }
+    void Set_y(int _y){
+        y=_y;
+    }
+    void Set_point(int _x,int _y){
+    x=_y;
+    y=_y;
+    }
+     void Get_point(void){
+       return x;
+       return y;
+
+    }
+    int get_x(){
+     return x;
+    }
+    int get_y(){
+     return y;
+    }
+
+    void paint(){
+    cout<<"("<<x<<","<<y<<")"<<endl;
+
+    }
+
+}; //END point class
+
+class rectangel{
+public :
+Point p1,p2;
+
+    rectangel(int p1r,int p1l,int p2r, int p2l):p1(p1r,p1l),p2(p2r,p2l){
+    }
+
+
+}; //END CLASS RECTANGLE
+
+class Circle{
+
+int radius;
+Point p1;
+
+public :
+cirlce(){
+radius=0;
+p1.Set_point(0,0);
+}
+
+void setp1(int x , int y){
+p1.Set_point(x,y);
+}
+void set_radius(int r){
+radius=r;
+}
+int get_x(){
+return p1.get_x();
+}
+int get_y(){
+return p1.get_y();
+}
+int get_radius(){
+return radius;
+}
+};
+ //END CLASS CIRCLE
+
+class Line{
+
+Point p1,p2;
+ Line(){
+
+ p1.Set_point(0,0);
+ p2.Set_point(0,0);
+
+ }
+ Line(int pxl,int pxr,int pyr, int pyl):p1(pxr,pyr),p2(pxl,pyl){
+    }
+int get_p1(){
+
+return p1.get_x();
+
+
+
+}
+
+
+
+};
+
+
+
+
+int main()
+{
+
+    Point p1(4,5);
+    p1.Get_point();
+    
+    return 0;
+}
