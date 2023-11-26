@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1700322024 source:e:\codeblocks projects\oop\lab6\myshapes\main.cpp
+	<iostream>
+	<graphics.h>
+	"shape.h"
+	"Point.h"
+	"Circle.h"
+	"Line.h"
+	"rec.h"
+
+1700321770 e:\codeblocks projects\oop\lab6\myshapes\include\shape.h
+
+1699986369 e:\codeblocks projects\oop\lab6\myshapes\include\point.h
+
+1699987806 e:\codeblocks projects\oop\lab6\myshapes\include\circle.h
+
+1699986539 e:\codeblocks projects\oop\lab6\myshapes\include\line.h
+
+1699989342 e:\codeblocks projects\oop\lab6\myshapes\include\rec.h
+
